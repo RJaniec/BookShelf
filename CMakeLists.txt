@@ -3,4 +3,4 @@ project(offlineTestPartRepo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(offlineTestPartRepo main.cpp)
+add_executable(offlineTestPartRepo main.cpp io.cpp io.h)
