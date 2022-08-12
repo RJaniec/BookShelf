@@ -1,8 +1,0 @@
-//
-// Created by Rafał Janiec on 12/08/2022.
-//
-
-#ifndef OFFLINETESTPARTREPO_IO_H
-#define OFFLINETESTPARTREPO_IO_H
-
-#endif //OFFLINETESTPARTREPO_IO_H

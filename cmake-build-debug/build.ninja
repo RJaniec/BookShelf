@@ -52,12 +52,6 @@ build CMakeFiles/offlineTestPartRepo.dir/main.cpp.o: CXX_COMPILER__offlineTestPa
   OBJECT_DIR = CMakeFiles/offlineTestPartRepo.dir
   OBJECT_FILE_DIR = CMakeFiles/offlineTestPartRepo.dir
 
-build CMakeFiles/offlineTestPartRepo.dir/io.cpp.o: CXX_COMPILER__offlineTestPartRepo_Debug /Users/rafal/CLionProjects/offlineTestPartRepo/io.cpp || cmake_object_order_depends_target_offlineTestPartRepo
-  DEP_FILE = CMakeFiles/offlineTestPartRepo.dir/io.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
-  OBJECT_DIR = CMakeFiles/offlineTestPartRepo.dir
-  OBJECT_FILE_DIR = CMakeFiles/offlineTestPartRepo.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target offlineTestPartRepo
@@ -66,7 +60,7 @@ build CMakeFiles/offlineTestPartRepo.dir/io.cpp.o: CXX_COMPILER__offlineTestPart
 #############################################
 # Link the executable offlineTestPartRepo
 
-build offlineTestPartRepo: CXX_EXECUTABLE_LINKER__offlineTestPartRepo_Debug CMakeFiles/offlineTestPartRepo.dir/main.cpp.o CMakeFiles/offlineTestPartRepo.dir/io.cpp.o
+build offlineTestPartRepo: CXX_EXECUTABLE_LINKER__offlineTestPartRepo_Debug CMakeFiles/offlineTestPartRepo.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/offlineTestPartRepo.dir
   POST_BUILD = :
